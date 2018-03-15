@@ -1,5 +1,11 @@
 # 使用说明
-lfw_pair_dir_extract.py用于抽取lfw数据的pair列表，生成人脸验证所需的人脸对信息
+## 文件列表
+
+### lfw_face_verification.py
+用于在lfw上进行10折交叉验证
+
+### lfw_pair_dir_extract.py
+用于抽取lfw数据的pair列表，生成人脸验证所需的人脸对信息
 
 Usage: python lfw_pair_dir_extract.py lfw_pair_list lfw_l_file lfw_r_file lfw_aligned_dir
 
